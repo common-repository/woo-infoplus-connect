@@ -1,0 +1,47 @@
+#wc_infoplus_orders .inside {
+  margin: 0;
+  padding: 0; }
+
+#wc_infoplus_orders table.wc-infoplus-orders {
+  width: 100%; }
+  #wc_infoplus_orders table.wc-infoplus-orders thead th {
+    text-align: left;
+    padding: 1em;
+    font-weight: 400;
+    color: #999;
+    background: #f8f8f8; }
+  #wc_infoplus_orders table.wc-infoplus-orders tbody td {
+    text-align: left;
+    padding: 1em;
+    border-bottom: 1px solid #f8f8f8;
+    vertical-align: top; }
+  #wc_infoplus_orders table.wc-infoplus-orders thead th:first-child,
+  #wc_infoplus_orders table.wc-infoplus-orders tbody td:first-child {
+    padding-left: 1em; }
+  #wc_infoplus_orders table.wc-infoplus-orders thead th:last-child,
+  #wc_infoplus_orders table.wc-infoplus-orders tbody td:last-child {
+    padding-right: 1em; }
+  #wc_infoplus_orders table.wc-infoplus-orders tbody tr:hover td {
+    background-color: #fcfcfc; }
+  #wc_infoplus_orders table.wc-infoplus-orders tbody tr:last-child td {
+    border-bottom: none; }
+  #wc_infoplus_orders table.wc-infoplus-orders td.items ul {
+    margin: 0; }
+    #wc_infoplus_orders table.wc-infoplus-orders td.items ul .times {
+      color: #c8c8c8; }
+  #wc_infoplus_orders table.wc-infoplus-orders td.parcels .parcel {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f8f8f8; }
+    #wc_infoplus_orders table.wc-infoplus-orders td.parcels .parcel:last-child {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border-bottom: none; }
+    #wc_infoplus_orders table.wc-infoplus-orders td.parcels .parcel .meta {
+      color: #c8c8c8; }
+  #wc_infoplus_orders table.wc-infoplus-orders td.parcels .na {
+    color: #c8c8c8; }
+
+#wc_infoplus_orders .no-orders {
+  margin: 0;
+  padding: 1em; }
